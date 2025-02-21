@@ -164,18 +164,21 @@ span {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
+    background-color: #141414;
+    color: white;
+    margin-bottom: 20px;
+    height: 120vh;
 }
 
 .box {
-    height: 350px;
-    border: 1px solid black;
+    height: 370px;
     width: 23%;
-    background-color: white;
+    background: transparent;
     margin-top: 10px;
     padding: 20px 0px 15px;
     transition: 0.3s ease-in-out;
-    border-radius: 50px;
+    border-radius: 10px;
+    border: 2px solid aqua;
 }
 
 .box:hover {
@@ -197,4 +200,10 @@ span {
 .box-content p {
     color: #007185;
     font-size: 1rem;
+}
+
+footer {
+    font-size: larger;
+    text-align: center;
+    background-color: aqua;
 }
