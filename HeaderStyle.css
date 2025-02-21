@@ -165,7 +165,7 @@ span {
     flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: #141414;
-    color: white;
+    color: greenyellow;
     margin-bottom: 20px;
     height: 120vh;
 }
@@ -173,16 +173,18 @@ span {
 .box {
     height: 370px;
     width: 23%;
-    background: transparent;
+    background: rgb(125, 119, 119);
     margin-top: 10px;
     padding: 20px 0px 15px;
     transition: 0.3s ease-in-out;
     border-radius: 10px;
-    border: 2px solid aqua;
+    border: 1px solid aqua;
 }
 
 .box:hover {
     transform: scale(1.02);
+    background: transparent;
+    border: 2px solid aqua;
 }
 
 .img-box {
